@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.Card {
+  background-color: rgb(161, 15, 66);
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+.Navbar {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(120, 8, 32);
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
